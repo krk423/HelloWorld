@@ -14,8 +14,9 @@ class MyApp extends StatelessWidget {
           title: Text('Hello World'),
           backgroundColor: Colors.blue.shade200,
         ),
-        body: Row(
-          mainAxisAlignment: MainAxisAlignment.center,
+        body: Column(
+          // mainAxisAlignment: MainAxisAlignment.start,
+          crossAxisAlignment: CrossAxisAlignment.center,
           children: <Widget>[
             Text('Arise, Awake and stop not till the goal is reached'),
             TextButton(
